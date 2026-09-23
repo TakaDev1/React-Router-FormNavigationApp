@@ -10,7 +10,7 @@ const UserForm = () => {
   };
   return (
     <div>
-      <h2>UserForm</h2>
+      <h2 className="py-10">UserForm</h2>
       <form onSubmit={handleComplete}>
         <label htmlFor="name">
           <input type="text" id="name" />

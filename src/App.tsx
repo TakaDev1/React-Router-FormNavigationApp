@@ -6,7 +6,7 @@ import Complete from "./pages/Complete";
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen bg-gray-800 flex flex-col justify-center">
       <BrowserRouter>
         <h1>React-Router-FormNavigationApp</h1>
         <Routes>
